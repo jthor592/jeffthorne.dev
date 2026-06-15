@@ -4,16 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jeffrey Thorne, PE</title>
-  <meta name="description" content="Electrical engineer specializing in semiconductor fabrication plants, data centers, and large-scale power distribution." />
+  <meta name="description" content="Licensed Professional Engineer based in Pittsburgh, PA, specializing in electrical systems for large-scale critical infrastructure." />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
 
   <!-- ===================== NAV =====================
-       Left:  jeffthorne.dev links back to home.
-       Right: page links in order — Projects, Resume, About.
-       Add "active" class to the link matching this page.
+       jeffthorne.dev on the left links back to this page.
+       Right: Projects, Resume. No "About" — this page IS the about.
        To add a page: duplicate a <li>, update href and text.
   ===================================================== -->
   <nav class="nav">
@@ -22,7 +21,6 @@
       <ul class="nav__links">
         <li><a href="projects.html">Projects</a></li>
         <li><a href="resume.html">Resume</a></li>
-        <li><a href="about.html">About</a></li>
       </ul>
     </div>
   </nav>
@@ -32,107 +30,42 @@
   <main class="container">
 
 
-    <!-- HERO -->
-    <section class="hero section">
-
-      <p class="hero__greeting">Electrical Engineer &middot; PE</p>
-
-      <h1 class="hero__title">
-        Hi, I'm <span class="accent">Jeffrey Thorne</span>.<br>
-        I engineer critical infrastructure.
-      </h1>
-
-      <p class="hero__bio">
-        Licensed Professional Engineer with 10+ years designing electrical systems
-        for the world's largest semiconductor fabs, data centers, transit networks,
-        and government facilities. I specialize in high-voltage power distribution,
-        UPS systems, and large-scale BIM coordination.
-      </p>
-
-      <!-- Contact chips — add/remove chips as needed -->
-      <div class="hero__contact">
-
-        <a class="chip" href="mailto:jthor592@gmail.com">
-          <!-- Email icon -->
-          <svg class="chip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="2" y="4" width="20" height="16" rx="2"/>
-            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
-          </svg>
-          jthor592@gmail.com
-        </a>
-
-        <a class="chip" href="tel:7244331092">
-          <!-- Phone icon -->
-          <svg class="chip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.09 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 2.92 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16z"/>
-          </svg>
-          724-433-1092
-        </a>
-
-        <span class="chip">
-          <!-- Location icon -->
-          <svg class="chip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
-            <circle cx="12" cy="10" r="3"/>
-          </svg>
-          Pittsburgh, PA
-        </span>
-
-      </div>
-    </section>
-
-
-    <!-- STATS -->
-    <!-- To add/remove a stat: duplicate or delete a .stat block.
-         The grid auto-sizes to however many .stat items exist. -->
-    <div class="stat-row">
-
-      <div class="stat">
-        <span class="stat__number">10+</span>
-        <span class="stat__label">years experience</span>
-      </div>
-
-      <div class="stat">
-        <span class="stat__number">~20M ft²</span>
-        <span class="stat__label">of facilities designed</span>
-      </div>
-
-      <div class="stat">
-        <span class="stat__number">2&times; PE</span>
-        <span class="stat__label">PA &amp; DC licensed</span>
-      </div>
-
-    </div>
-
-
-    <!-- CURRENTLY -->
+    <!-- INTRO -->
+    <!-- "Jeffrey Thorne" renders in accent blue via the .accent span -->
     <section class="section">
-      <p class="eyebrow">Currently</p>
       <p class="currently">
-        Lead Electrical Engineer at <strong>Jacobs</strong>, working on a greenfield
-        semiconductor fabrication plant in Boise, Idaho — a full replication of a campus
-        in Clay, New York. Responsible for 4.16kV LVSS modifications, IPC design,
-        ductbanks, and conduit systems across the Fab building.
+        I'm <span class="accent">Jeffrey Thorne</span>, a licensed Professional Engineer
+        based in Pittsburgh, PA, specializing in electrical systems for large-scale critical
+        infrastructure — semiconductor fabrication plants, data centers, government facilities,
+        and transit networks.
+      </p>
+
+      <br />
+
+      <p class="currently">
+        I've spent 10+ years working across firms including Jacobs, AECOM, Bechtel, and Tetra Tech,
+        on projects ranging from a 2.9M ft² semiconductor fab in Phoenix to a 750,000 ft²
+        government renovation in Maryland. Beyond engineering design, I build automation tools
+        and Revit add-ins that make large project teams more efficient.
+      </p>
+
+      <br />
+
+      <p class="currently">
+        I hold PE licenses in Pennsylvania and the District of Columbia, and a B.S. in Electrical
+        Engineering from Penn State.
       </p>
     </section>
 
 
-    <!-- FOCUS AREAS -->
-    <!-- To add a skill: duplicate a <span class="tag"> line. -->
+    <!-- CONTACT -->
+    <!-- To add/remove a chip: duplicate or delete a line -->
     <section class="section">
-      <p class="eyebrow">Focus Areas</p>
-
-      <div class="tag-group">
-        <span class="tag">High-voltage power distribution</span>
-        <span class="tag">UPS &amp; battery systems</span>
-        <span class="tag">Data center design</span>
-        <span class="tag">Semiconductor fabs</span>
-        <span class="tag">Revit / BIM</span>
-        <span class="tag">Load flow &amp; short circuit</span>
-        <span class="tag">NEC / NFPA 855</span>
-        <span class="tag">ETAP</span>
-        <span class="tag">SKM PowerTools</span>
-        <span class="tag">Automation tools</span>
+      <p class="eyebrow">Contact</p>
+      <div class="chip-group">
+        <a class="chip" href="mailto:jthor592@gmail.com">jthor592@gmail.com</a>
+        <a class="chip" href="tel:7244331092">724-433-1092</a>
+        <span class="chip">Pittsburgh, PA</span>
       </div>
     </section>
 
